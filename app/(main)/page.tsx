@@ -156,6 +156,8 @@ export default function Home() {
           Turn your <span className="text-blue-600">idea</span>
           <br /> into an <span className="text-blue-600">app</span>
         </h1>
+        <h2>The official fork by <a href="https://bysatha.com" target="_blank" className={"text-blue-600"}>Sathnindu Kottage</a>
+          <br/>as a part of building DijkstraAI V1 • FYSE Edition</h2>
 
         <form className="w-full max-w-xl" onSubmit={createApp}>
           <fieldset disabled={loading} className="disabled:opacity-75">
